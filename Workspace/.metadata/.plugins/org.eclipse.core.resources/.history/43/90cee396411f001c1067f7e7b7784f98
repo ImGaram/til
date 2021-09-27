@@ -1,0 +1,16 @@
+package string_array.array.practice;
+
+public class Array12 {
+	public static void main(String[] args) {
+		printSum(10,20,30);
+		System.out.println(printSum(1,2,3,4,5));
+	}
+	
+	static int printSum(int...x) {
+		int sum = 0;
+		for (int i : x) {
+			sum+=i;
+		}
+		return sum;
+	}
+}

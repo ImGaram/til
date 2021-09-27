@@ -1,0 +1,15 @@
+package string_array.array.practice;
+
+import java.util.Scanner;
+
+public class Mission2 {
+	public static void main(String[] args) {
+		String text12;
+		Scanner sc = new Scanner(System.in);
+		
+		text12 = sc.nextLine();
+	}
+	
+	
+}
+

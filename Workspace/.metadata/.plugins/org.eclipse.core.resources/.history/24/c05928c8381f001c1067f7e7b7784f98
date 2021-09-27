@@ -1,0 +1,10 @@
+package string_array.array.practice;
+
+public class Array8 {
+	public static void main(String[] args) {
+		int[][] array = {{1,2},{1},{1,2,3}};
+		for (int[] i : array) {
+			System.out.println(i.length);
+		}
+	}
+}

@@ -1,0 +1,7 @@
+package string_array.array.practice;
+
+public class AAA {
+	public static void main(String[] args) {
+		int score[][] = {
+	}
+}

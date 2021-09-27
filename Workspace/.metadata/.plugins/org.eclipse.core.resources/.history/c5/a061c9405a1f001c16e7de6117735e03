@@ -1,0 +1,22 @@
+package string_array.array.practice;
+
+import java.util.Scanner;
+
+public class Mission1 {
+	public static void main(String[] args) {
+		int[] score;
+		int stuNum;
+		int t = 0;
+		double avg = 0;
+		Scanner sc = new Scanner(System.in);
+		
+		stuNum = sc.nextInt();
+		score = new int[stuNum];
+		
+		for (int i = 0; i < score.length; i++) {
+			t+=score[i];
+			avg = t / (double)stuNum;
+		}
+		System.out.println(avg);
+	}
+}

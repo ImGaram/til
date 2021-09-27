@@ -1,0 +1,17 @@
+package string_array.array.practice;
+
+public class Array10 {
+	public static void main(String[] args) {
+		int[]x= {0};
+		System.out.println("호출 전 : "+ x[0]);
+		
+		increment(x);
+		
+		System.out.println("호출 후 : "+ x[0]);
+	}
+
+	private static void increment(int[] n) {
+		n[0]++;
+		System.out.println("함수 안 : "+n[0]);
+	}
+}

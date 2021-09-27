@@ -1,0 +1,21 @@
+package string_array.array;
+
+public class DoubleArray1 {
+	public static void main(String[] args) {
+		int[][] A;
+		A = new int[2][3];	//2행 3열
+		A[0] = new int[] {10, 20, 30};
+		A[1] = new int[] {1, 2, 3};
+		
+		//선언과 동시에 초기화 가능
+		int[][] B = new int[][] {	// 이거
+			{10, 20, 30},
+			{1, 2, 3}
+		};
+		
+		int[][] C = {
+				{10, 20, 30},
+				{1, 2, 3}
+		};
+	}
+}

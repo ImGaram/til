@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.utils.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="sun.awt.geom.AreaOp.AddOp"/>
+    <fullyQualifiedTypeName name="java.lang.invoke.StringConcatFactory"/>
+    <fullyQualifiedTypeName name="chapter4.crass.Car1"/>
+    <fullyQualifiedTypeName name="chapter4.crass.Car"/>
+    <fullyQualifiedTypeName name="chapter4.crass.Car2"/>
+    <fullyQualifiedTypeName name="chapter4.test.Car"/>
+    <fullyQualifiedTypeName name="chapter4.crass.Student"/>
+    <fullyQualifiedTypeName name="chapter4.VariablesAndMethods.Card"/>
+    <fullyQualifiedTypeName name="chapter4.VariablesAndMethods.myMath"/>
+    <fullyQualifiedTypeName name="chapter4.VariablesAndMethods.MemberCall"/>
+    <fullyQualifiedTypeName name="constructor.PeopleData"/>
+    <fullyQualifiedTypeName name="constructor.practice.People"/>
+    <fullyQualifiedTypeName name="constructor.practice.PeopleData"/>
+    <fullyQualifiedTypeName name="constructor.gettersetter.Time"/>
+    <fullyQualifiedTypeName name="constructor.initialization_of_variables.Slass"/>
+    <fullyQualifiedTypeName name="constructor.initialization_of_variables.Sklass"/>
+    <fullyQualifiedTypeName name="constructor.initialization_of_variables.Oklass"/>
+    <fullyQualifiedTypeName name="constructor.initialization_of_variables.Student"/>
+    <fullyQualifiedTypeName name="string_array.string.String1"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.NEW"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.dtm.ref.IncrementalSAXSource"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.IntInsnNode"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.awt.print.Printable"/>
+    <fullyQualifiedTypeName name="string_array.array.Circle"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.code.Type.ForAll"/>
+    <fullyQualifiedTypeName name="javax.sound.midi.SysexMessage"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.io.StreamCorruptedException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.Text"/>
+</qualifiedTypeNameHistroy>
