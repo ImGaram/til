@@ -1,0 +1,22 @@
+package baekjoon;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a, b, t = 1;
+		int num = sc.nextInt();
+		
+		for (int i = 0; i < num; i++) {
+			a = sc.nextInt();
+			b = sc.nextInt();
+			// a,b 가 10 보다 큼
+			for (int j = 0; j < b; j++) {
+				a = a*t%11;
+			}
+			System.out.println(a);
+		}
+	}
+	
+}

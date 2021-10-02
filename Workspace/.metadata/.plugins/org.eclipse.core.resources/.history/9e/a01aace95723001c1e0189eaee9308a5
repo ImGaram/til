@@ -1,0 +1,21 @@
+package conquest;
+
+public class Q10 {
+	public static void main(String[] args) {
+		int sum = 0;	// total
+		int s = 1;		// 부호 바꾸기
+		int num = 0;
+		int min;
+		
+		while (sum<=100) {
+			sum+=num;
+			num++;	// 1
+			if (num%2==0) {	//-2
+				min = num * -s;
+				sum+=min;
+				min = num * -s;
+			}
+		}
+		System.out.println(num);
+	}
+}

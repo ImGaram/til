@@ -1,0 +1,17 @@
+package conquest;
+
+public class Q8 {
+	public static void main(String[] args) {
+		int temp = 0;
+		int x=1, y=2, z=3;
+		System.out.println("x = "+x+", y = "+y+", z = "+z);
+		
+		x = temp;
+		y =x;
+		z = y;
+		temp = z;
+		
+		System.out.println("변경 후");
+		System.out.println("x = "+x+", y = "+y+", z = "+z);
+	}
+}
