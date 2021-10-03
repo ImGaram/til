@@ -1,0 +1,15 @@
+package conquest;
+
+public class Q17 {
+
+}
+
+class Car{
+	String color;
+	String gearType;
+	int door;
+	
+	Car(){
+		this("white","auto",4);
+	}
+}

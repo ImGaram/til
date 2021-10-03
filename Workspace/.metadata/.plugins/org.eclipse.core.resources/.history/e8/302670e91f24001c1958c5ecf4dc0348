@@ -1,0 +1,31 @@
+package conquest;
+
+class Account {
+	private String ano;
+	private String owner;
+	private int balance;
+	
+	Account(String ano, String owner, int balance) {
+		
+	}
+	
+	void getAccount() {
+		return;
+	}
+	
+	public void setAccount() {
+		this.ano = ano;
+		this.owner = owner;
+		this.balance = balance;
+	}
+	
+	void transfer(Account target, int amount) {	// a, b9
+		if (balance< amount) {
+			System.out.println("잔액이 없어요");
+		}
+		else {
+			balance-= amount;
+			target.balance+=amount;
+		}
+	}
+}
