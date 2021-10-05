@@ -1,0 +1,22 @@
+package conquest;
+
+public class Q20 {
+	public static boolean isNumber(String str) {
+		for (int i = 0; i < str.length(); i++) {
+			if (str.charAt(i) == '0') {
+				return true;
+			}
+			else {
+				return false;
+			}
+		}
+		return true;
+	}
+	
+	public static void main(String[] args) {
+		String str = "123";
+		System.out.println(str+"은 숫자입니까? "+isNumber(str));
+		String str = "123o";
+		System.out.println(str+"은 숫자입니까? "+isNumber(str));
+	}
+}
