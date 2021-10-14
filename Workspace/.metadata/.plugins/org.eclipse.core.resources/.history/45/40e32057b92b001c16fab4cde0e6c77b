@@ -1,0 +1,6 @@
+package inheritance;
+
+public class Eagle extends Animal {
+	String wing;
+	void fly() { }
+}

@@ -1,0 +1,6 @@
+package inheritance;
+
+public class Goldfish {
+	String fin;
+	void swim() { }
+}

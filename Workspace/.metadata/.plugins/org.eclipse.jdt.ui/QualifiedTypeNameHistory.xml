@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jdk.internal.org.jline.utils.InputStreamReader"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
-    <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
-    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="sun.awt.geom.AreaOp.AddOp"/>
     <fullyQualifiedTypeName name="java.lang.invoke.StringConcatFactory"/>
@@ -58,6 +51,13 @@
     <fullyQualifiedTypeName name="conquest.Food"/>
     <fullyQualifiedTypeName name="conquest.Car"/>
     <fullyQualifiedTypeName name="jdk.jfr.DataAmount"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar.BuiltinSchemaGrammar"/>
     <fullyQualifiedTypeName name="conquest.Account"/>
+    <fullyQualifiedTypeName name="java.awt.datatransfer.Transferable"/>
+    <fullyQualifiedTypeName name="com.sun.accessibility.internal.resources.accessibility"/>
+    <fullyQualifiedTypeName name="inheritance.Animal"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="inheritance.Circle"/>
+    <fullyQualifiedTypeName name="inheritance.Ball"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

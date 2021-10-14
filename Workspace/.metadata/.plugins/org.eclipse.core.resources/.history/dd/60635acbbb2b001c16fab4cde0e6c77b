@@ -1,0 +1,16 @@
+package inheritance;
+
+public class Circle {
+	private void secret() {
+		System.out.println("비밀");
+	}
+	
+	//
+	protected void findRadious() {
+		System.out.println("반지름 : 10.0cm");
+	}
+	
+	public void findArea() {
+		System.out.println("넓이 : 반지름 * 반지름 * 3.14");
+	}
+}
