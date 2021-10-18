@@ -1,0 +1,31 @@
+package tngod;
+
+import java.util.Scanner;
+
+public class Q3 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		int g = 1;
+		int total=1;
+		int c=0;
+		int n[] = new int[100];
+		
+		for (int i = 0;num >0; i++) {
+			n[i]= num%10; //5
+			num/=10;	//12345 -> 1234
+			System.out.println(n[i]);
+			c++;
+		}
+		
+		for (int i = c; i > 0; i--) {
+			int j = c;
+			while(j>0) {
+				g*=n[j];	// 5*4*3*2*1
+				j--;
+			}
+			total+=g;
+		}
+		System.out.println(total);
+	}
+}

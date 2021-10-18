@@ -1,0 +1,21 @@
+package tngod;
+
+import java.util.Scanner;
+
+public class Q3 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		int total=0;
+		int[] n = new int[100];
+		
+		for (int i = 0;num >0; i++) {
+			n[i]= num%10; //5
+			num/=10;	//12345 -> 1234
+		}
+		
+		for (int i = n.length; i > 0; i++) {
+			System.out.println(n[i]);
+		}
+	}
+}

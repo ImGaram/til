@@ -1,0 +1,17 @@
+package inheritance;
+
+import java.util.Scanner;
+
+import inheritance.pack.Pack1;
+
+public class Inheritance4 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		System.out.println("출력 : "+a);
+		
+		Pack1 pp = new Pack1();
+		pp.x = a;
+		pp.print();
+	}
+}

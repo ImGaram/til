@@ -1,0 +1,26 @@
+package tngod.tngoddhekq;
+
+import java.util.Scanner;
+
+public class Q4오답 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		char ch = (char)(Math.random()*26+65);
+		int cnt = 0;
+		
+		char c1 = sc.nextLine().charAt(0);
+		while (ch!=c1) {
+			if (c1>ch) {
+				System.out.println("더 작은 문자를 입력하세요");
+				cnt++;
+			}
+			else if (c1<ch) {
+				System.out.println("더 큰 문자를 입력하세요");
+				cnt++;
+			}
+			c1 = sc.nextLine().charAt(0);
+		}
+		System.out.println("맞췄습니다.");
+		System.out.println("시도 횟수는 "+cnt+" 번 입니다.");		
+	}
+}

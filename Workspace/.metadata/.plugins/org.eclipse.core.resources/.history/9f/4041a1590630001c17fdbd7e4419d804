@@ -1,0 +1,11 @@
+package tngod.tngoddhekq;
+
+import java.util.Scanner;
+
+public class Q4오답 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		char ch = (char)(Math.random()*10+65);
+		System.out.println(ch);
+	}
+}
