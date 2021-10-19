@@ -1,0 +1,6 @@
+package tngod.tngoddhekq;
+
+public class Q7오답 {
+	Car c1 = new Car();
+	
+}

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="constructor.initialization_of_variables.Student"/>
-    <fullyQualifiedTypeName name="string_array.string.String1"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.NEW"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.dtm.ref.IncrementalSAXSource"/>
     <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.IntInsnNode"/>
     <fullyQualifiedTypeName name="java.awt.print.Printable"/>
@@ -45,7 +42,6 @@
     <fullyQualifiedTypeName name="tngod.Car"/>
     <fullyQualifiedTypeName name="baekjoon.Main"/>
     <fullyQualifiedTypeName name="tngod.Student"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.sun.tools.classfile.StackMapTable_attribute.same_locals_1_stack_item_frame"/>
     <fullyQualifiedTypeName name="inheritance.pack.Pack1"/>
     <fullyQualifiedTypeName name="inheritance.pack.subpack.Pack2"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="jdk.internal.vm.vector.VectorSupport.VectorRearrangeOp"/>
+    <fullyQualifiedTypeName name="tngod.tngoddhekq.Car"/>
+    <fullyQualifiedTypeName name="com.sun.tools.classfile.InnerClasses_attribute.Info"/>
+    <fullyQualifiedTypeName name="tngod.tngoddhekq.Student"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
