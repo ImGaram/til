@@ -1,0 +1,10 @@
+package inheritance;
+
+public class Dog {
+	void Sound() {
+		System.out.println("멍몽");
+	}
+	void like() {
+		System.out.println("산책");
+	}
+}

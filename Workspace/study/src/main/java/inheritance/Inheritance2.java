@@ -1,6 +1,7 @@
 package inheritance;
 
 class Circle {
+	@SuppressWarnings("unused")
 	private void secret() {
 		System.out.println("비밀");
 	}

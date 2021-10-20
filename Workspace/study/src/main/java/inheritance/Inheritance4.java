@@ -6,6 +6,7 @@ import inheritance.pack.subpack.Pack2;
 // 방법 (1) = import inheritance.pack.Pack1;
 
 public class Inheritance4 {
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();

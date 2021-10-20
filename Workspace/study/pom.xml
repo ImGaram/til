@@ -4,7 +4,7 @@
   <artifactId>study</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <properties>
-  	<java.version>14</java.version>
+  	<java.version>16</java.version>
   </properties>
   <build>
   	<plugins>
