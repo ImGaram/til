@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="jdk.javadoc.internal.doclets.toolkit.taglets.SummaryTaglet"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.runtime.StaticBaseConstructor"/>
     <fullyQualifiedTypeName name="com.sun.tools.classfile.CharacterRangeTable_attribute"/>
     <fullyQualifiedTypeName name="sun.java2d.marlin.DMarlinRenderingEngine"/>
@@ -54,10 +52,12 @@
     <fullyQualifiedTypeName name="inheritance.Dog"/>
     <fullyQualifiedTypeName name="sun.security.krb5.internal.crypto.Aes128CtsHmacSha1EType"/>
     <fullyQualifiedTypeName name="inheritance.MyAnimal"/>
+    <fullyQualifiedTypeName name="inheritance.Veehicle"/>
+    <fullyQualifiedTypeName name="inheritance.Car"/>
+    <fullyQualifiedTypeName name="inheritance.Vehicle"/>
     <fullyQualifiedTypeName name="inheritance.Person"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="inheritance.Student"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="inheritance.Veehicle"/>
-    <fullyQualifiedTypeName name="inheritance.Vehicle"/>
-    <fullyQualifiedTypeName name="inheritance.Car"/>
+    <fullyQualifiedTypeName name="java.lang.Process"/>
 </qualifiedTypeNameHistroy>

@@ -1,6 +1,6 @@
 package chapter4.crass;
 
-class Car {
+class Car1 {
 	String name; 
 	String color;
 	int seat;

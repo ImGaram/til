@@ -1,6 +1,6 @@
 package chapter4.VariablesAndMethods;
 
-class Card {
+class Card1 {
 	String kind;
 	int number;
 	

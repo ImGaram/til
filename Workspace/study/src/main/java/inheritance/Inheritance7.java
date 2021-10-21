@@ -5,7 +5,8 @@ public class Inheritance7 {
 		Vehicle v = new Car();
 		System.out.println(v.name);
 		v.whoami();
-		v.move();
+		Vehicle.move();	// 올바른 방법
+//		v.move();	// 틀린 방법
 	}
 }
 
@@ -15,7 +16,7 @@ class Vehicle {
 		System.out.println("나는 탈 것이다.");
 	}
 	
-	static void move() {
+	static void move() {	// static 이라서 값이 바뀌지 않음
 		System.out.println("이동하다.");
 	}
 }

@@ -1,6 +1,6 @@
 package chapter4.VariablesAndMethods;
 
-class myMath{
+class myMath1{
 	//클래스 - 멤버변수, 필드 / 메서드 <- 멤버
 	float a, b;	// 인스턴스 변수 선언
 	
@@ -14,10 +14,10 @@ class myMath{
 public class MathTest {
 	public static void main(String[] args) {
 		// 클래스 메서드 호출
-		System.out.println(myMath.add(200f, 200f));
+		System.out.println(myMath1.add(200f, 200f));
 		
 		// 인스턴스 메서드 호출
-		myMath m = new myMath();
+		myMath1 m = new myMath1();
 		m.a=200f;
 		m.b=100f;
 		System.out.println(m.add());
