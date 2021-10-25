@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="sun.jvm.hotspot.runtime.StaticBaseConstructor"/>
-    <fullyQualifiedTypeName name="com.sun.tools.classfile.CharacterRangeTable_attribute"/>
-    <fullyQualifiedTypeName name="sun.java2d.marlin.DMarlinRenderingEngine"/>
     <fullyQualifiedTypeName name="java.util.concurrent.BrokenBarrierException"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.debugger.posix.elf.ELFSectionHeader"/>
     <fullyQualifiedTypeName name="conquest.Q10"/>
@@ -21,7 +18,6 @@
     <fullyQualifiedTypeName name="inheritance.Animal"/>
     <fullyQualifiedTypeName name="inheritance.Circle"/>
     <fullyQualifiedTypeName name="inheritance.Ball"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="inheritance.Point"/>
     <fullyQualifiedTypeName name="inheritance.Point3D"/>
     <fullyQualifiedTypeName name="java.lang.Number"/>
@@ -58,6 +54,10 @@
     <fullyQualifiedTypeName name="inheritance.Person"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="inheritance.Student"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Process"/>
+    <fullyQualifiedTypeName name="study.inherience.Person"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="study.inherience.Human"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="study.inherience.Parents"/>
 </qualifiedTypeNameHistroy>

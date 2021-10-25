@@ -1,0 +1,5 @@
+package study.inherience;
+
+class Practice1 extends Person{
+	
+}

@@ -1,0 +1,9 @@
+package study.inherience;
+
+class Person{
+	String name;
+	
+	void Money() {
+		System.out.println("머니");
+	}
+}
