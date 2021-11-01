@@ -16,7 +16,7 @@ public class Test1 {
 	public static void main(String[] args) {
 		
 		ColorBox b = new ColorBox();
-		System.out.println("BoxDemo");
+//		System.out.println("BoxDemo");
 ////		Person p1 = new Person();
 //		Human h1 = new Human("임가람", 17, 150000);
 //		h1.Money();

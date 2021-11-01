@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.concurrent.BrokenBarrierException"/>
-    <fullyQualifiedTypeName name="sun.jvm.hotspot.debugger.posix.elf.ELFSectionHeader"/>
     <fullyQualifiedTypeName name="conquest.Q10"/>
     <fullyQualifiedTypeName name="conquest.abs"/>
     <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
@@ -58,6 +56,8 @@
     <fullyQualifiedTypeName name="study.inherience.Person"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="study.inherience.Human"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="study.inherience.Parents"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="study.inherience.Box"/>
+    <fullyQualifiedTypeName name="study.inherience.ColorBox"/>
 </qualifiedTypeNameHistroy>
