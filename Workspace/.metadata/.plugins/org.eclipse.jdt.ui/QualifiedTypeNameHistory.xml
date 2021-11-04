@@ -56,8 +56,8 @@
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="study.inherience.Human"/>
     <fullyQualifiedTypeName name="study.inherience.Parents"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="study.inherience.Box"/>
     <fullyQualifiedTypeName name="study.inherience.ColorBox"/>
     <fullyQualifiedTypeName name="midtermexam.cross.PlayingCard"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
