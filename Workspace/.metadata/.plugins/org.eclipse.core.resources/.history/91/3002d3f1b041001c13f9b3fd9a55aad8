@@ -1,0 +1,10 @@
+package abstractclas;
+
+class Rectangle extends Shape{
+	int x;
+	int y;
+	
+	void draw() {
+		System.out.println("사각형을 그리다.");
+	}
+}

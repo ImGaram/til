@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="conquest.abs"/>
-    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
-    <fullyQualifiedTypeName name="conquest.Soldier"/>
-    <fullyQualifiedTypeName name="conquest.Dragon"/>
-    <fullyQualifiedTypeName name="conquest.Miner"/>
-    <fullyQualifiedTypeName name="conquest.Food"/>
     <fullyQualifiedTypeName name="conquest.Car"/>
     <fullyQualifiedTypeName name="jdk.jfr.DataAmount"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar.BuiltinSchemaGrammar"/>
@@ -58,6 +52,12 @@
     <fullyQualifiedTypeName name="study.inherience.Parents"/>
     <fullyQualifiedTypeName name="study.inherience.Box"/>
     <fullyQualifiedTypeName name="study.inherience.ColorBox"/>
-    <fullyQualifiedTypeName name="midtermexam.cross.PlayingCard"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="midtermexam.cross.PlayingCard"/>
+    <fullyQualifiedTypeName name="midtermexam.cross.Circle"/>
+    <fullyQualifiedTypeName name="java.lang.ExceptionInInitializerError"/>
+    <fullyQualifiedTypeName name="java.awt.Rectangle"/>
+    <fullyQualifiedTypeName name="abstractclas.Circle"/>
+    <fullyQualifiedTypeName name="abstractclas.Shape"/>
+    <fullyQualifiedTypeName name="abstractclas.Rectangle"/>
 </qualifiedTypeNameHistroy>

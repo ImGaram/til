@@ -16,6 +16,6 @@ public class Pra1 {
 	public static void main(String[] args) {
 		PlayingCard pc = new PlayingCard(1, 5);
 		System.out.println(pc.kind +" "+pc.num);
-		System.out.println(pc.width+" "+pc.height);
+		System.out.println(PlayingCard.width+" "+PlayingCard.height);
 	}
 }

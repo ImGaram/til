@@ -1,0 +1,15 @@
+package midtermexam.cross;
+
+public class Circle01 {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Circle{
+	double radious;
+	
+	double findArea() {
+		return 3.14*radious*radious;
+	}
+}

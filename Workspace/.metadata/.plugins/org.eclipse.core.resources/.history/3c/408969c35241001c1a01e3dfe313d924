@@ -1,0 +1,4 @@
+package abstractclas;
+
+public class Shape {
+	}
