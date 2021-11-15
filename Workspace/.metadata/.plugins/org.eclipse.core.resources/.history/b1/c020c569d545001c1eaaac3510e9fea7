@@ -1,0 +1,12 @@
+package midtermexam;
+
+public class E1 {
+	public void ArrayPrint(int[] scores) {
+		for (int i = 0; i < scores.length; i++) {
+			System.out.print(scores[i]);
+		}
+	}
+	public static void main(String[] args) {
+		int[] scores = int[5] {50,60,70,80,90,100};
+	}
+}
