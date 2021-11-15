@@ -1,0 +1,5 @@
+package interfacee;
+
+public class Operation2 extends Parent,{
+
+}

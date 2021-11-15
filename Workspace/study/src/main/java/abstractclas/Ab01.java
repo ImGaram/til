@@ -7,6 +7,7 @@ abstract class Abc01 {
 	// 추상 메서드
 	// 메서드 본체가 없다
 	abstract int Abc();	// 꼭 세미콜론으로 끝나야 한다
+	public abstract int Abcc();
 }
 
 public class Ab01 {

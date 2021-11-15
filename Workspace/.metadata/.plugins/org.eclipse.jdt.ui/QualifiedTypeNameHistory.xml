@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="conquest.Car"/>
-    <fullyQualifiedTypeName name="jdk.jfr.DataAmount"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar.BuiltinSchemaGrammar"/>
     <fullyQualifiedTypeName name="conquest.Account"/>
     <fullyQualifiedTypeName name="java.awt.datatransfer.Transferable"/>
@@ -47,7 +45,6 @@
     <fullyQualifiedTypeName name="inheritance.Student"/>
     <fullyQualifiedTypeName name="java.lang.Process"/>
     <fullyQualifiedTypeName name="study.inherience.Person"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="study.inherience.Human"/>
     <fullyQualifiedTypeName name="study.inherience.Parents"/>
     <fullyQualifiedTypeName name="study.inherience.Box"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="abstractclas.Circle"/>
     <fullyQualifiedTypeName name="abstractclas.Shape"/>
     <fullyQualifiedTypeName name="abstractclas.Rectangle"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="interfacee.Operation"/>
+    <fullyQualifiedTypeName name="interfacee.Sample"/>
 </qualifiedTypeNameHistroy>

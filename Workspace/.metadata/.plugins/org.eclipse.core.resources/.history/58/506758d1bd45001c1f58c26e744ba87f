@@ -1,0 +1,23 @@
+package interfacee;
+
+public class Implemention implements Operation{
+	@Override
+	public int add(int a, int b) {
+		return a+b;
+	}
+	
+	@Override
+	public int multiplicate(int a,int b) {
+		return a*b;
+	}
+	
+	@Override
+	public int minus(int a,int b) {
+		return a-b;
+	}
+	
+	@Override
+	public int operation(int a,int b) {
+		return Operation.super.operation(a, b);
+	}
+}
