@@ -7,33 +7,33 @@ int top = -1;
 //스택 구현
 //스택 삽입
 void push(element item) {
-	if (top>=STACK_SIZE){
+	if (top >= STACK_SIZE) {
 		printf("Stack is Full!\n");
 		return;
 	}
-	else{
+	else {
 		stack[++top] = item;
 	}
 }
 
 //스택 삭제
 element pop() {
-	if (top==-1){
+	if (top == -1) {
 		printf("Stack is Empty!\n");
 		return 0;
 	}
-	else{
+	else {
 		return stack[top--];
 	}
 }
 
 //스택 조회
 element peek() {
-	if (top==-1){
+	if (top == -1) {
 		printf("Stack is Empty!\n");
 		return 0;
 	}
-	else{
+	else {
 		return stack[top];
 	}
 }

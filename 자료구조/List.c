@@ -18,7 +18,7 @@ node* head = NULL;
 node* tail = NULL;
 int main() {
     int number;
-    int d;    //tkrwp
+    int d;    //삭제
     while (1) {
         scanf_s("%d", &number);
         node* newnode = (node*)malloc(sizeof(node));
@@ -71,7 +71,7 @@ void del(int idx) {
         node* sak = head;    // 삭제할 위치
         node* jjaphead = head;
         for (int i = 0; i < idx; i++) {
-             sak = sak->link;
+            sak = sak->link;
         }
         for (int i = 0; i < idx - 1; i++) {
             jjaphead = jjaphead->link;    // 굿 dd
@@ -79,7 +79,7 @@ void del(int idx) {
         jjaphead->link = sak->link;
         free(sak);
     }
-    
+
 }
 
 // 출력

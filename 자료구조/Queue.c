@@ -33,7 +33,7 @@ void enqueue(queueType* q, element item) {
 
 //삭제 함수
 element dequeue(queueType* q) {
-	if (q->front==q->rear)
+	if (q->front == q->rear)
 	{
 		error("큐가 공백 상태입니다");
 	}
