@@ -37,17 +37,17 @@
 typedef struct Node {
     struct Node* front, * back;
     int data;
-}node;
+}Node;
 int main() {
     int n;//¹Ýº¹È½¼ö
     scanf_s("%d", &n);
-    node* head = NULL;
-    node* tail = NULL;
+    Node* head = NULL;
+    Node* tail = NULL;
     for (int i = 0; i < n; i++) {
         int data;
         scanf_s("%d", &data);
-        node* prev = tail;
-        tail = (node*)malloc(sizeof(node));
+        Node* prev = tail;
+        tail = (Node*)malloc(sizeof(Node));
         tail->back = NULL;
         tail->front = NULL;
         tail->data = data;

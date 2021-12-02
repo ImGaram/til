@@ -5,10 +5,10 @@ typedef int element;
 typedef struct node {
 	struct node* front, * end;
 	element data;
-} node;
+} Node;
 
 node* head = NULL;
-node* tail = NULL;
+node* newnode = NULL;
 
 int main() {
 	int data;
@@ -22,13 +22,13 @@ int main() {
 		node* newnode = (node*)malloc(sizeof(node));
 		if (head==NULL)	{
 			head = newnode;
-			tail = head;
+			newnode = head;
 			continue;
 		}
 		// 노드를 노드끼리 잇는 화살표 생성
-		tail->end = newnode;
-		newnode->front = tail;
-		tail = newnode;
+		newnode->end = newnode;
+		newnode->front = newnode;
+		newnode = newnode;
 	}
 
 	// 출력

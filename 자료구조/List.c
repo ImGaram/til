@@ -12,16 +12,16 @@ void sunhue(int cnt);   // 순회
 typedef struct listnode {
     int data;
     struct listnde* link;
-}node;
+}Node;
 
-node* head = NULL;
-node* tail = NULL;
+Node* head = NULL;
+Node* newnode = NULL;
 int main() {
     int number;
     int d;    //삭제
     while (1) {
         scanf_s("%d", &number);
-        node* newnode = (node*)malloc(sizeof(node));
+        Node* newnode = (Node*)malloc(sizeof(Node));
         newnode->data = number;
         newnode->link = NULL;
         if (number == -1) {
@@ -40,19 +40,19 @@ int main() {
 }
 
 // head, tail 연산
-void insert(int data, node* newnode) {
+void insert(int data, Node* newnode) {
     if (head == NULL) {
         head = newnode;    // 새로운 node
     }
     else {
-        tail->link = newnode;
+        newnode->link = newnode;
     }
-    tail = newnode;
-    tail->link = head;
+    newnode = newnode;
+    newnode->link = head;
 }
 
 void sunhue(int cnt) {  // 순회
-    node* temp = head;
+    Node* temp = head;
     for (int i = 0; i < cnt - 1; i++) {
         temp = temp->link;
     }
@@ -62,14 +62,14 @@ void sunhue(int cnt) {  // 순회
 // 리스트 삭제
 void del(int idx) {
     if (idx == 0) {
-        node* temp = head;
+        Node* temp = head;
         head = head->link;
-        tail->link = head;
+        newnode->link = head;
         free(temp);
     }
     else {
-        node* sak = head;    // 삭제할 위치
-        node* jjaphead = head;
+        Node* sak = head;    // 삭제할 위치
+        Node* jjaphead = head;
         for (int i = 0; i < idx; i++) {
             sak = sak->link;
         }
@@ -83,7 +83,7 @@ void del(int idx) {
 }
 
 // 출력
-void dolong2(node* head) {
+void dolong2(Node* head) {
     if (head != NULL) {
         printf("%d -> ", head->data);
         dolong2(head->link);

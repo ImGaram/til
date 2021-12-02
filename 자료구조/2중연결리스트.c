@@ -67,12 +67,12 @@ typedef struct ListNode {
     element data;
     struct ListNode* link;
     struct ListNode* blink;
-} node;
+} Node;
 
-node* head = NULL;
-node* tail = NULL;
+Node* head = NULL;
+Node* newnode = NULL;
 
-void insertNode(node* newnode) {
+void insertNode(Node* newnode) {
     if (head == NULL)
     {
         head = newnode;
@@ -80,19 +80,19 @@ void insertNode(node* newnode) {
     }
     else
     {
-        newnode->blink = tail;
-        tail->link = newnode;
+        newnode->blink = newnode;
+        newnode->link = newnode;
     }
-    tail = newnode;
+    newnode = newnode;
 }
 
 void deleteNode() {
     int dN;
     scanf_s("%d", &dN);
     printf("\n");
-    node* blconNode = head;
-    node* delNode = blconNode;
-    node* lconNode = delNode;
+    Node* blconNode = head;
+    Node* delNode = blconNode;
+    Node* lconNode = delNode;
 
     if (dN != 1) {
         for (int i = 1; i <= dN; i++)
@@ -121,17 +121,17 @@ void deleteNode() {
 int main() {
 
     while (1) {
-        node* newnode = (node*)malloc(sizeof(node));
+        Node* newnode = (Node*)malloc(sizeof(Node));
         scanf_s("%d", &newnode->data);
         if (newnode->data < 0) {
-            tail->link = head;
-            head->blink = tail;
+            newnode->link = head;
+            head->blink = newnode;
             printf("\n");
             break;
         }
         insertNode(newnode);
         newnode->link = head;
-        printf("%d %p\n\n", newnode->data, tail);
+        printf("%d %p\n\n", newnode->data, newnode);
     }
     deleteNode();
     while (1) {
