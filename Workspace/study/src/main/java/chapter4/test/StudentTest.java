@@ -2,7 +2,7 @@ package chapter4.test;
 
 public class StudentTest {
 	public static void main(String[] args) {
-		Student s1=new Student();
+		Student1 s1=new Student1();
 		s1.name="홍길동";
 		s1.kor=70;
 		s1.eng=30;
