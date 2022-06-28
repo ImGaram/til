@@ -1,0 +1,8 @@
+127.0.0.1 - - [22/Apr/2022:21:35:22 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [22/Apr/2022:21:35:24 +0900] "GET /JSPBook/BookMarket/bookmarket.jsp HTTP/1.1" 200 3286
+0:0:0:0:0:0:0:1 - - [22/Apr/2022:21:35:24 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [22/Apr/2022:21:35:29 +0900] "GET /JSPBook/web_shopping/product.jsp HTTP/1.1" 500 2719
+0:0:0:0:0:0:0:1 - - [22/Apr/2022:21:35:42 +0900] "GET /JSPBook/web_shopping/products.jsp HTTP/1.1" 200 2661
+0:0:0:0:0:0:0:1 - - [22/Apr/2022:21:35:44 +0900] "GET /JSPBook/web_shopping/product.jsp?id=P1234 HTTP/1.1" 200 1895
+0:0:0:0:0:0:0:1 - - [22/Apr/2022:21:35:47 +0900] "GET /JSPBook/web_shopping/product.jsp?id=P1235 HTTP/1.1" 200 1887
+0:0:0:0:0:0:0:1 - - [22/Apr/2022:21:35:49 +0900] "GET /JSPBook/web_shopping/product.jsp?id=P1236 HTTP/1.1" 200 1892

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;practice/src/main/webapp/soqn/llist.jsp&apos; to &apos;list.jsp&apos;" description="Rename resource &apos;llist.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/soqn/llist.jsp" name="list.jsp" stamp="1656415052528" updateReferences="true"/>
+</session>

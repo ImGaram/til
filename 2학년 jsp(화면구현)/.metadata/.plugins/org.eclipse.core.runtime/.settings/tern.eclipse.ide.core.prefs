@@ -1,0 +1,5 @@
+defaultTernModules=guess-types,outline,jquery-ui1-12,ecma5,browser,jquery,jquery-mobile1.5,jquery-extension,browser-extension
+disableAsyncRequests=true
+eclipse.preferences.version=1
+repositories=
+used-repository-name=default

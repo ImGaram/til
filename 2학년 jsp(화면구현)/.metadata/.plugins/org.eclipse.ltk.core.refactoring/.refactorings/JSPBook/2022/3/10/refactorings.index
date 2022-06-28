@@ -1,0 +1,5 @@
+1646205264055	Rename resource 'hello.jsp'
+1646351229846	Delete elements
+1646351664445	Move 'hello.jsp' to 'lib'
+1646351667729	Move 'hello.jsp' to 'WEB-INF'
+1646351684533	Move 'hello.jsp' to 'webapp'

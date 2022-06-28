@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;clubRegister/src/main/webapp/view/index.jsp&apos; to &apos;main.jsp&apos;" description="Rename resource &apos;index.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/view/index.jsp" name="main.jsp" stamp="1654645997122" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;clubRegister/src/main/webapp/view/main.jsp&apos; to &apos;main-section.jsp&apos;" description="Rename resource &apos;main.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/view/main.jsp" name="main-section.jsp" stamp="1654698384781" updateReferences="true"/>
+</session>
