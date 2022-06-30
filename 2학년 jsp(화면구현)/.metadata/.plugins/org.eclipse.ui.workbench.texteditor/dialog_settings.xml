@@ -8,8 +8,8 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="clubfrm"/>
 			<item value="frm"/>
+			<item value="clubfrm"/>
 			<item value="post"/>
 			<item value="mode"/>
 			<item value="hidden"/>
