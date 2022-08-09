@@ -3,6 +3,6 @@ import ValidationSample from './ValidationSample';
 import IterationSample from './IterationSample';
 
 const App= () => {
-  return <IterationSample/>
+  return <IterationSample />
 }
 export default App;
