@@ -12,7 +12,7 @@
 </header>
 <nav style="position: fixed; top: 60px; left: 0px; width: 100%; height: 30px; line-height: 30px; color: white; background-color: lightblue; padding-left: 20px">
 <a href="candidateref.jsp">후보조회</a> &nbsp; &nbsp;
-<a>투표하기</a> &nbsp; &nbsp;
+<a href="vote.jsp">투표하기</a> &nbsp; &nbsp;
 <a>투표검수조회</a> &nbsp; &nbsp;
 <a>후보자등수</a> &nbsp; &nbsp;
 <a href="index.jsp">홈으로</a>
